@@ -1,38 +1,53 @@
-# sv
+# Tech Conference Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Welcome to the Tech Conference 2025 website! This is a modern web application built with SvelteKit, designed to provide information about the upcoming tech conference.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Home Page**: Overview of the conference with key details
+- **About Page**: Information about the conference, event highlights, and schedule
+- **Schedule Page**: Detailed conference schedule with session times, topics, and locations
+- **Speakers Page**: Profiles of conference speakers with images and descriptions
+- **Sponsors Page**: List of conference sponsors with logos and links
+- **Contact Page**: Contact form and social media links
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Project Setup
 
-# create a new project in my-app
-npx sv create my-app
-```
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/tech-conference-website.git
+   ```
 
-## Developing
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
 
-```bash
-npm run dev
+4. **Open in browser**:
+   Visit `http://localhost:5173` in your web browser
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Technologies Used
 
-## Building
+- SvelteKit
+- Tailwind CSS
+- Sveltestrap
+- Font Awesome
 
-To create a production version of your app:
+## Contributing
 
-```bash
-npm run build
-```
+Contributions are welcome! Please follow these steps:
 
-You can preview the production build with `npm run preview`.
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/YourFeatureName`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/YourFeatureName`)
+5. Open a pull request
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
